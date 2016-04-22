@@ -1,0 +1,76 @@
+Making all in doc
+make[1]: Entering directory '/home/lvley/soft/sysbench-0.4.12/doc'
+Making all in xsl
+make[2]: Entering directory '/home/lvley/soft/sysbench-0.4.12/doc/xsl'
+make[2]: Nothing to be done for 'all'.
+make[2]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/doc/xsl'
+make[2]: Entering directory '/home/lvley/soft/sysbench-0.4.12/doc'
+make[2]: Nothing to be done for 'all-am'.
+make[2]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/doc'
+make[1]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/doc'
+Making all in sysbench
+make[1]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench'
+Making all in drivers
+make[2]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/drivers'
+Making all in mysql
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/drivers/mysql'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/drivers/mysql'
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/drivers'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/drivers'
+make[2]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/drivers'
+Making all in tests
+make[2]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests'
+Making all in cpu
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/cpu'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/cpu'
+Making all in fileio
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/fileio'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/fileio'
+Making all in memory
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/memory'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/memory'
+Making all in threads
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/threads'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/threads'
+Making all in mutex
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/mutex'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/mutex'
+Making all in oltp
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/oltp'
+make[3]: Nothing to be done for 'all'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests/oltp'
+make[3]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests'
+make[3]: Nothing to be done for 'all-am'.
+make[3]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests'
+make[2]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench/tests'
+Making all in .
+make[2]: Entering directory '/home/lvley/soft/sysbench-0.4.12/sysbench'
+/bin/bash ../libtool --tag=CC   --mode=link gcc -pthread -g -O2      -o sysbench sysbench.o sb_timer.o sb_options.o sb_logger.o db_driver.o tests/fileio/libsbfileio.a tests/threads/libsbthreads.a tests/memory/libsbmemory.a tests/cpu/libsbcpu.a tests/oltp/libsboltp.a tests/mutex/libsbmutex.a drivers/mysql/libsbmysql.a -L/usr/lib/i386-linux-gnu -lmysqlclient_r -lpthread -lz -lm -ldl   -lm 
+../libtool: line 838: X--tag=CC: command not found
+../libtool: line 871: libtool: ignoring unknown tag : command not found
+../libtool: line 838: X--mode=link: command not found
+../libtool: line 1004: *** Warning: inferring the mode of operation is deprecated.: command not found
+../libtool: line 1005: *** Future versions of Libtool will require --mode=MODE be specified.: command not found
+../libtool: line 2231: X-g: command not found
+../libtool: line 2231: X-O2: command not found
+../libtool: line 1951: X-L/usr/lib/i386-linux-gnu: No such file or directory
+../libtool: line 2400: Xsysbench: command not found
+X: user not authorized to run the X server, aborting.
+../libtool: line 2412: Xsysbench: command not found
+../libtool: line 2420: mkdir /.libs: No such file or directory
+mkdir: cannot create directory '/.libs': Permission denied
+Makefile:323: recipe for target 'sysbench' failed
+make[2]: *** [sysbench] Error 1
+make[2]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench'
+Makefile:372: recipe for target 'all-recursive' failed
+make[1]: *** [all-recursive] Error 1
+make[1]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench'
+Makefile:300: recipe for target 'all-recursive' failed
+make: *** [all-recursive] Error 1
