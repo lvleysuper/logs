@@ -74,3 +74,11 @@ make[1]: *** [all-recursive] Error 1
 make[1]: Leaving directory '/home/lvley/soft/sysbench-0.4.12/sysbench'
 Makefile:300: recipe for target 'all-recursive' failed
 make: *** [all-recursive] Error 1
+
+reason:
+the libtool in top src dir is not up to date.
+
+solution:
+1,update libtool: copy from src dir or modify LIBTOOL path in aclocal.m4
+2,cd config,replace all $echo in ltmain.sh to $ECHO
+3,if whoami is not root may cause some permission error,in ubuntu system use sudo make && make install.
