@@ -1,0 +1,20 @@
+/bin/sh: 1: utils/gen_git_version: Permission denied
+/bin/sh: 1: utils/gen_git_version: Permission denied
+Makefile:71: warning: overriding recipe for target 'clean'
+/home/lvley/soft/otp_src_17.0/make/otp_subdir.mk:28: warning: ignoring old recipe for target 'clean'
+/bin/sh: 1: utils/gen_git_version: Permission denied
+/bin/sh: 1: utils/gen_git_version: Permission denied
+/usr/bin/install: cannot change permissions of ‘/usr/local/lib/erlang/erts-6.0’: No such file or directory
+make[5]: *** [release_spec] Error 1
+make[4]: *** [release_spec] Error 2
+make[3]: *** [release] Error 2
+make[2]: *** [release] Error 2
+/bin/sh: 1: utils/gen_git_version: Permission denied
+/bin/sh: 1: utils/gen_git_version: Permission denied
+/usr/bin/install: cannot change permissions of ‘/usr/local/lib/erlang/erts-6.0’: No such file or directory
+make[5]: *** [release_spec] Error 1
+make[4]: *** [release_spec] Error 2
+make[3]: *** [release] Error 2
+make[2]: *** [release] Error 2
+make[1]: *** [release] Error 2
+make: *** [install.emulator] Error 2
