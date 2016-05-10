@@ -174,7 +174,7 @@ MongoDB复制集实现数据库的冗余备份、故障转移，提高了数据�
 
 复制集基本结构：	
 
-![Alt text](/resoure/replication.png)
+![Alt text](/resources/replication.png)
 
 
 ### 复制集配置
@@ -223,7 +223,7 @@ db.addArb("127.0.0.1:4444")
 副本集主要是提高系统的可用性和安全性，决绝故障转移的问题。每个副本都有完整的数据。
 
 分片的基本结构：	
-![Alt text](/resoure/shard.jpg)
+![Alt text](/resources/shard.jpg)
 
 ### 分片配置
 假设有2个复制集rs0,rs1，一个配置服务器configdb，一个mongos
